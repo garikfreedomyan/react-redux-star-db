@@ -1,0 +1,30 @@
+.login {
+   min-width: 300px;
+   width: 100%;
+   padding: 20px;
+   border: 1px solid #444;
+   border-radius: 5px;
+   box-sizing: border-box;
+   
+   background-color: #303030;
+}
+
+.login__text {
+   margin-bottom: 15px;
+
+   font-size: 20px;
+}
+
+.login__btn {
+   padding: 5px 20px;
+   border: 1px solid rgb(0, 174, 255);
+   border-radius: 5px;
+   
+   font-size: 16px;
+   color: rgb(0, 174, 255);
+   background-color: transparent;
+}
+
+.login__btn:hover {
+   background-color: rgba(0, 174, 255, 0.1);
+}

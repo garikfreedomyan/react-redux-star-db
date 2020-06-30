@@ -1,0 +1,23 @@
+.error-indicator {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 5px auto;
+
+   color: #c78f22;
+   line-height: 1.4rem;
+}
+
+.error-indicator img {
+   margin-bottom: 10px;
+ }
+
+.error-indicator .boom {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.error-indicator span {
+  text-align: center;
+}

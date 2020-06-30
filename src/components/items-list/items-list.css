@@ -1,0 +1,33 @@
+.items-list {
+   min-width: 300px;
+   width: 100%;
+   border: 1px solid #444;
+   border-radius: 5px;
+
+   background-color: #303030;
+
+   order: 2;
+}
+
+.list-item {
+   padding: 13px 20px;
+
+   cursor: pointer;
+}
+
+.list-item:not(:last-child) {
+   border-bottom: 1px solid #444;
+}
+
+.list-item:hover {
+   background-color: #444;
+}
+
+@media(min-width: 768px) {
+   .items-list {
+      width: 49%;
+      max-width: 487px;
+   
+      order: 0;
+   }
+}

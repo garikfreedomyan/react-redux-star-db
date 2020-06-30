@@ -1,0 +1,22 @@
+body {
+   padding: 10px;
+
+   background-color: #222;
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #fff;
+}
+
+@media (min-width: 768px) {
+body {
+   padding: 20px;
+}
+
+}
+   
+@media (min-width: 1200px) {
+body {
+   padding: 20px 30px;
+}
+
+}

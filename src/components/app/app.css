@@ -1,0 +1,12 @@
+.app {
+   display: flex;
+   flex-direction: column;
+   min-width: 300px;
+   max-width: 1024px;
+   margin: 0 auto;
+}
+
+.main-titel {
+   font-size: 60px;
+   text-align: center;
+}

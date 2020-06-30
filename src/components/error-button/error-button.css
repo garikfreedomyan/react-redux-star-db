@@ -1,0 +1,15 @@
+.error-button {
+   width: 150px;
+   padding: 6px;
+   border: 1px solid red;
+   border-radius: 10px;
+   margin-bottom: 20px;
+
+   color: red;
+
+   background-color: transparent;
+}
+
+.error-button:hover {
+   background-color: rgba(255, 179, 179, 0.1);
+}
